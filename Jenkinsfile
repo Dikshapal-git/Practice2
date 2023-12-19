@@ -15,7 +15,7 @@ Pipeline{
          {  
            Steps
            { 
-                sh 'cp target/Practice1.war /home/diksha-1/Documents/ExtractFile/apache-tomcat-9.0.80/webapp'
+                sh 'cp target/Practice2.war /home/diksha-1/Documents/ExtractFile/apache-tomcat-9.0.80/webapp'
                 }
          }
         }
