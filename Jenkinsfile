@@ -2,15 +2,15 @@ Pipeline {
         agent any
         stages {
                  stage('Checkout') {
-                    steps {
+                    Steps {
                     checkout scm
                     } }
                  stage('Build'){
-                     steps{
+                     Steps{
                      sh '/home/diksha-1/Documents/ExtractFile/apache-maven-3.9.3/mvn install'
                      }}   
                  stage('Deployment') {
-                      steps{
+                      Steps{
                       sh 'cp target/Project1.war /home/diksha-1/Documents/ExtractFile/apache-tomcat-9.0.80/webapps'
 
                       }}   
