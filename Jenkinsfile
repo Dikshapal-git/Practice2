@@ -7,7 +7,7 @@ pipeline {
                     } }
                  stage('Build'){
                      steps{
-                     sh '/home/diksha-1/Documents/ExtractFile/apache-maven-3.9.3/mvn install'
+                     sh '/home/diksha-1/Documents/ExtractFile/apache-maven-3.9.3/bin/mvn install'
                      }}   
                  stage('Deployment') {
                       steps{
